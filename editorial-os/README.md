@@ -14,7 +14,7 @@ Your documents become the system's configuration.
 ## Install
 
 ```
-claude plugins add yourgithubusername/editorial-os
+github.com/EditorialOS/editorial-os
 ```
 
 Once installed, commands become available directly inside Claude.
