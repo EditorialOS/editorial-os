@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "google-drive": {
+      "type": "http",
+      "url": "https://gdrive.mcp.claude.com/mcp"
+    },
+    "cloudinary": {
+      "type": "http",
+      "url": "https://asset-management.mcp.cloudinary.com/sse"
+    },
+    "hubspot": {
+      "type": "http",
+      "url": "https://mcp.hubspot.com/anthropic"
+    },
+    "google-calendar": {
+      "type": "http",
+      "url": "https://gcal.mcp.claude.com/mcp"
+    },
+    "gmail": {
+      "type": "http",
+      "url": "https://gmail.mcp.claude.com/mcp"
+    }
+  }
+}
