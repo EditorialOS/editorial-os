@@ -1,4 +1,7 @@
 
+**Docs:** [PRD](PRD.md) · [Architecture](ARCHITECTURE.md) · [Changelog](CHANGELOG.md)
+
+
 # Editorial OS
 
 Editorial OS is a **modular editorial operations system for Claude and Cowork**.
