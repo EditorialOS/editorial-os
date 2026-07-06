@@ -17,7 +17,8 @@ Your documents become the system's configuration.
 ## Install
 
 ```
-claude plugins add EditorialOS/editorial-os
+/plugin marketplace add EditorialOS/editorial-os
+/plugin install editorial-os@editorial-os
 ```
 
 Once installed, commands become available directly inside Claude.
@@ -56,11 +57,11 @@ The result is **a full editorial workflow inside Claude**.
 
 ---
 
-## What Editorial OS Replaces
+## One Workflow, Six Functions
 
-Editorial OS compresses several traditional marketing roles into a single workflow.
+For teams where headcount isn't an option, Editorial OS unifies six traditional functions into a single document-grounded workflow.
 
-Typical teams divide this work across:
+These roles typically split the work:
 
 • Content Strategist — identifying topic gaps  
 • Competitive Analyst — monitoring market positioning  
@@ -213,7 +214,22 @@ Capacity-aware editorial planning.
 
 ---
 
-## How It Works
+
+  ---
+
+  ## Eval Layer
+
+  Every command output is scored against three criteria before delivery:
+
+  | Criterion | What it checks |
+  |---|---|
+  | **Voice consistency** | Output matches the tone, vocabulary, and register of the brand guide |
+  | **Pillar coverage** | Content maps to defined editorial pillars — gaps are flagged |
+  | **Coherence** | Structure, argument, and flow hold together as a complete piece |
+
+  Sections that fail the threshold are flagged and regenerated. The system reports specifically what it couldn't satisfy when a pass isn't possible. The Gate implements this same eval pattern as a standalone REST API: [github.com/EditorialOS/The-Gate](https://github.com/EditorialOS/The-Gate)
+
+  ## How It Works
 
 The core idea is **documents as configuration**.
 
