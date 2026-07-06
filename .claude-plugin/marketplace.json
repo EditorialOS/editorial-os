@@ -1,0 +1,33 @@
+{
+    "name": "editorialos",
+    "owner": {
+      "name": "Roger Gurbani",
+      "email": "editorial.operating.system@gmail.com"
+    },
+    "plugins": [
+      {
+        "name": "editorial-os",
+        "source": {
+          "source": "url",
+          "url": "https://github.com/EditorialOS/editorial-os.git"
+        },
+        "description": "Editorial strategy system. 7 commands, 5 specialist skills — audit, competitor analysis, 90-day calendars, drafting, social repurposing. Your Google Drive folder is the configuration."
+      },
+      {
+        "name": "email-marketing-manager",
+        "source": {
+          "source": "url",
+          "url": "https://github.com/EditorialOS/email-marketing-manager.git"
+        },
+        "description": "Newsletter production with a persistent learning loop. Drafts to your voice, generates segment variants, predicts performance, writes learnings back to Drive after every send."
+      },
+      {
+        "name": "pinterest-marketing-strategist",
+        "source": {
+          "source": "url",
+          "url": "https://github.com/EditorialOS/pinterest-marketing-strategist.git"
+        },
+        "description": "Pinterest pin production. Composed batches from your approved image library — SEO copy, board assignment, staggered scheduling, performance learning."
+      }
+    ]
+  }
