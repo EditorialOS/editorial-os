@@ -17,8 +17,13 @@ Your documents become the system's configuration.
 ## Install
 
 ```
+# From Anthropic's community plugin marketplace:
+/plugin marketplace add anthropics/claude-plugins-community
+/plugin install editorial-os@claude-community
+
+# Or from the EditorialOS marketplace:
 /plugin marketplace add EditorialOS/editorial-os
-/plugin install editorial-os@editorial-os
+/plugin install editorial-os@editorialos
 ```
 
 Once installed, commands become available directly inside Claude.
