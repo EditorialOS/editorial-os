@@ -36,6 +36,14 @@
         "url": "https://github.com/EditorialOS/composer.git"
       },
       "description": "Package stories with matched visual assets, usage rights, platform-ready crops, and archival context. One brief in, one publishable package out."
+    },
+    {
+      "name": "photo-editor",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EditorialOS/photo-editor.git"
+      },
+      "description": "Post-shoot metadata pipeline. Embeds XMP/IPTC into images via ExifTool — traceable to products, rights, dates, and shoot context."
     }
   ]
 }
